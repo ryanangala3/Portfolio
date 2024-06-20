@@ -17,16 +17,14 @@ function Header() {
       >
         <div className="container flex justify-between content-center mt-4 mb-4 mx-auto w-full">
           <ul className="md:flex space-x-10 sm:hidden">
-            <a href="">
-              <li
-                className="list-none text-2xl text-gray-300"
-                onClick={(e) => {
-                  window.location.href = "mailto:ryanjangala@gmail.com";
-                }}
-              >
-                Contact Me
-              </li>
-            </a>
+            <li
+              className="list-none text-2xl text-gray-300 hover:cursor-pointer"
+              onClick={() => {
+                window.location.href = "mailto:ryanjangala@gmail.com";
+              }}
+            >
+              Contact Me
+            </li>
           </ul>
 
           <ul className="flex space-x-10 sm:mx-auto md:mx-0">
@@ -39,7 +37,11 @@ function Header() {
                 />
               </li>
             </a>
-            <a href="https://www.linkedin.com/in/ryan-angala" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/ryan-angala"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li className="list-none ">
                 <img
                   className="w-10 h-10 fill-current text-gray-300"
@@ -48,7 +50,11 @@ function Header() {
                 />
               </li>
             </a>
-            <a href="https://github.com/ryanangala3" target="_blank">
+            <a
+              href="https://github.com/ryanangala3"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <li className="list-none ">
                 <img className="w-10 h-10" src={githubLogo} alt="" />
               </li>
