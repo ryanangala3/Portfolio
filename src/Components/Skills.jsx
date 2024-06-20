@@ -25,28 +25,28 @@ function Skills() {
       </h3>
       <ul className="container flex flex-wrap justify-between align-middle mt-14 pb-10 space-y-10">
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40 mt-10" src={htmlLogo} />
+          <img className="w-40 h-40 mt-10" src={htmlLogo} alt="HTML" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={cssLogo} />
+          <img className="w-40 h-40" src={cssLogo} alt="CSS" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={jsLogo} />
+          <img className="w-40 h-40" src={jsLogo} alt="JavaScript" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={reactLogo} />
+          <img className="w-40 h-40" src={reactLogo} alt="React" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={nodeLogo} />
+          <img className="w-40 h-40" src={nodeLogo} alt="Node.JS" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={expressLogo} />
+          <img className="w-40 h-40" src={expressLogo} alt="Express" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={mySQLLogo} />
+          <img className="w-40 h-40" src={mySQLLogo} alt="MySQL" />
         </li>
         <li className="list-none sm:w-1/2 md:w-1/4 flex flex-col items-center">
-          <img className="w-40 h-40" src={tailwindLogo} />
+          <img className="w-40 h-40" src={tailwindLogo} alt="MySQL" />
         </li>
       </ul>
     </div>
