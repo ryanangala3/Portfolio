@@ -1,5 +1,4 @@
 import React from "react";
-import avatar from "../assets/avatar.svg";
 import Headshot from "../assets/Online-BC-Headshots-March-2024_0006_Ryan-Angala_IMG_5749.jpg";
 
 function Hero() {

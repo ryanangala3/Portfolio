@@ -1,7 +1,7 @@
 import React from "react";
 import githubLogo from "../assets/github.svg";
 import linkedInLogo from "../assets/linkedin.svg";
-import resumeIcon from "../assets/cv.svg";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   return (
@@ -17,6 +17,11 @@ function Header() {
       >
         <div className="container flex justify-between content-center mt-4 mb-4 mx-auto w-full">
           <ul className="md:flex space-x-10 sm:hidden">
+            <li className="list-none text-2xl text-gray-300 hover:cursor-pointer">
+              <HashLink smooth to="/#projects">
+                Projects
+              </HashLink>
+            </li>
             <li
               className="list-none text-2xl text-gray-300 hover:cursor-pointer"
               onClick={() => {
@@ -28,15 +33,6 @@ function Header() {
           </ul>
 
           <ul className="flex space-x-10 sm:mx-auto md:mx-0">
-            <a href="../assets/Ryan Angala-Resume.pdf" target="_blank">
-              <li className="list-none ">
-                <img
-                  className="w-10 h-10 text-gray-200"
-                  src={resumeIcon}
-                  alt=""
-                />
-              </li>
-            </a>
             <a
               href="https://www.linkedin.com/in/ryan-angala"
               target="_blank"
